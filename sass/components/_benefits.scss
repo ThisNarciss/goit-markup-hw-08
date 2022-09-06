@@ -39,7 +39,7 @@
   font-size: $basic-font-size;
   line-height: 1.71;
 
-  width: 450px;
+  max-width: 450px;
 
   @media screen and (min-width: 768px) {
     width: 354px;
@@ -54,7 +54,7 @@
   background-color: $secondary-bgc;
   border-radius: 4px;
 
-  width: 450px;
+  max-width: 450px;
   height: 120px;
 
   display: flex;
