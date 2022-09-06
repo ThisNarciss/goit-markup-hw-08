@@ -1,0 +1,25 @@
+$main-color-text: #212121;
+$secondary-text-color: #757575;
+$accent: #2196f3;
+$fon-main-color: #ffffff;
+$fon-section-bgc: #2f303a;
+$logo-color: #000000;
+$hero-btn-bgc-hover: #188ce8;
+$secondary-bgc: #f5f4fa;
+$site-btn-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+$header-border-color: #ececec;
+$portfolio-border-color: #eeeeee;
+$basic-weight: 700;
+$minor-weight: 500;
+$basic-line-height: 1.14;
+$basic-font-size: 14px;
+$icon-kink-color: #afb1b8;
+$hero-bgc: #c4c4c4;
+$cubic-style: cubic-bezier(0.4, 0, 0.2, 1);
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: $fon-main-color;
+  color: $main-color-text;
+  letter-spacing: 0.03em;
+}

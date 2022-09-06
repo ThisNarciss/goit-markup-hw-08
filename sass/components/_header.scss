@@ -1,0 +1,15 @@
+.header {
+  @media screen and (min-width: 768px) {
+    border-bottom: 1px solid $header-border-color;
+  }
+}
+
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .navigation {
+    display: flex;
+    align-items: center;
+  }
+}
