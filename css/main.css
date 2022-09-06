@@ -715,10 +715,10 @@ svg {
   list-style: none;
 }
 
-.thumb {
+.work__thumb {
   position: relative;
 }
-.thumb .thumb__text {
+.work__thumb .work__text {
   background: rgba(47, 48, 58, 0.8);
   color: #ffffff;
   font-weight: 700;
