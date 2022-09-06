@@ -1,0 +1,30 @@
+.footer {
+  background-color: $fon-section-bgc;
+
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    row-gap: 60px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    justify-content: space-between;
+    align-items: baseline;
+  }
+}
+
+.footer__logo {
+  margin-right: 0;
+}

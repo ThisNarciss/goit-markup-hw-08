@@ -1,0 +1,42 @@
+.address {
+  margin-top: 20px;
+
+  @media screen and (max-width: 767px) {
+    margin-bottom: 60px;
+  }
+
+  .address__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 9px;
+  }
+
+  .address__item {
+    min-width: 231px;
+  }
+  .address__text--color {
+    color: $fon-main-color;
+  }
+}
+
+.address-container {
+  @media screen and (max-width: 1199px) {
+    text-align: center;
+  }
+}
+
+.address__link {
+  transition: color 250ms $cubic-style;
+
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: $basic-font-size;
+  line-height: 1.71;
+  text-decoration: none;
+  font-style: normal;
+
+  &:hover,
+  &:focus {
+    color: $accent;
+  }
+}
