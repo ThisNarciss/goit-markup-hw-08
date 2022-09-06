@@ -1,4 +1,7 @@
 .site-nav {
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
   @media screen and (min-width: 768px) {
     display: flex;
     column-gap: 50px;
@@ -6,23 +9,6 @@
 }
 
 .site-nav__link {
-  color: $main-color-text;
-  font-weight: $minor-weight;
-  font-size: $basic-font-size;
-  line-height: $basic-line-height;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  text-align: center;
-
-  &:hover,
-  &:focus {
-    color: $accent;
-  }
-
-  &--current {
-    color: $accent;
-  }
-
   @media screen and (min-width: 768px) {
     position: relative;
     transition: color 250ms $cubic-style;
@@ -32,6 +18,23 @@
     padding-bottom: 32px;
     padding-left: 3px;
     padding-right: 3px;
+
+    color: $main-color-text;
+    font-weight: $minor-weight;
+    font-size: $basic-font-size;
+    line-height: $basic-line-height;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    text-align: center;
+
+    &:hover,
+    &:focus {
+      color: $accent;
+    }
+
+    &--current {
+      color: $accent;
+    }
 
     &--current::after {
       content: '';
