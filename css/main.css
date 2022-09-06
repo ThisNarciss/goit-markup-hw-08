@@ -689,4 +689,47 @@ svg {
   .benefits__icon-box {
     width: 270px;
   }
+}
+
+.section-work {
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .section-work {
+    display: block;
+  }
+}
+
+.section-work__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.work {
+  display: flex;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  list-style: none;
+}
+
+.thumb {
+  position: relative;
+}
+.thumb .thumb__text {
+  background: rgba(47, 48, 58, 0.8);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  display: flex;
+  min-width: 100%;
+  min-height: 70px;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 0;
 }/*# sourceMappingURL=main.css.map */
