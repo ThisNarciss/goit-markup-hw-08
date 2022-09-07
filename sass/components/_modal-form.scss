@@ -23,11 +23,15 @@
   flex-direction: column;
   row-gap: 10px;
 
-  width: 370px;
+  width: 100%;
 
   margin-bottom: 20px;
 
   fill: currentColor;
+
+  @media screen and (min-width: 480px) {
+    width: 370px;
+  }
 
   @media screen and (min-width: 1200px) {
     width: 448px;
