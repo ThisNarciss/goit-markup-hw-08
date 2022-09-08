@@ -69,7 +69,7 @@
 
   color: $secondary-text-color;
 
-  transition: color 250ms $cubic-style, transform(1) 250ms $cubic-style;
+  transition: color 250ms $cubic-style, transform 250ms $cubic-style;
 
   &:hover,
   &:focus {

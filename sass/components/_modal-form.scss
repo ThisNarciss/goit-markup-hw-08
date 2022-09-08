@@ -71,6 +71,9 @@
     border-color: $accent;
     outline: none;
   }
+  &:hover {
+    border-color: $accent;
+  }
 
   &::placeholder {
     font-size: 12px;
