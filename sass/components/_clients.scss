@@ -19,9 +19,10 @@
 
 .clients {
   display: flex;
+  justify-content: center;
+  gap: 30px;
   @media screen and (max-width: 1199px) {
     flex-wrap: wrap;
-    gap: 30px;
   }
 
   @media screen and (min-width: 1200px) {
@@ -40,7 +41,7 @@
 .clients__link {
   transition: color 250ms $cubic-style, border 250ms $cubic-style;
 
-  width: 210px;
+  width: 100%;
   height: 92px;
 
   color: $icon-kink-color;
@@ -57,12 +58,5 @@
     color: $accent;
     border: 1px solid $accent;
     outline: none;
-  }
-
-  @media screen and (min-width: 768px) {
-    width: 226px;
-  }
-  @media screen and (min-width: 1200px) {
-    width: 170px;
   }
 }
