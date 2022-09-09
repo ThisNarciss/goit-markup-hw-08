@@ -3,6 +3,9 @@
   background-color: $fon-main-color;
   fill: currentColor;
 
+  padding-top: 10px;
+  padding-bottom: 10px;
+
   transition: color 250ms $cubic-style;
 
   &:hover,
