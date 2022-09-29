@@ -8,6 +8,7 @@
 
   background-color: rgba(0, 0, 0, 0.2);
 
+  overflow: auto;
   opacity: 1;
   visibility: visible;
   transition: opacity 500ms $cubic-style, visibility 500ms $cubic-style;
